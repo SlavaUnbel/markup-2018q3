@@ -1,0 +1,83 @@
+body {
+	background-color: white;
+	color: #565656;
+	width: 100%;
+	font-size: 15px;
+	padding: 0;
+	margin-left: 0;
+	margin-right: 0;
+	font-weight: 300;
+	font-family: 'roboto', sans-serif;
+}
+ol, ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+a, a:hover, a:active, a:focus {
+	text-decoration: none;
+	outline: none;
+}
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+p {
+	margin-left: 0 0 15px;
+}
+p, a {
+	font-family: 'latolight';
+}
+input {
+	outline: none;
+}
+h1, h2, h3 {
+	font-weight: 300;
+    margin: 0;
+}
+h4, h5 {
+	font-family: 'latoheavy';
+    font-weight: 300;
+    margin: 0;
+    line-height: 32em;
+}
+h1 {
+    font-size: 3em;
+    line-height: 4em;
+    font-weight: 300;
+}
+h2 {
+    font-size: 2.5em;
+    line-height: 3em;
+    margin-bottom: 0.9em;
+}
+h3 {
+    font-weight: 300;
+    margin-bottom: 0.9em;
+    font-size: 2.1em;
+    line-height: 2.5em;
+}
+h4 {
+    font-size: 1.6em;
+    line-height: 2.2em;
+    margin-bottom: 1.1em;
+}
+h5 {
+    font-size: 1.3em;
+    margin-bottom: 1em;
+}
+p {
+	line-height: 1.5em;
+	font-size: 1.1em;
+}
+section h2 {
+	font-size: 3em;
+    line-height: 4em;
+    font-weight: 300;
+    margin-bottom: 1.4em;
+}
+section h5 {
+	font-weight: 100;
+    font-size: 1.4px;
+}
