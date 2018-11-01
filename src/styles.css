@@ -157,7 +157,7 @@ section h5 {
     line-height: 45px;
     color: #fff;
 }
-.single_slider h2{
+.single_slider h2 {
     color: #fff;
     font-size: 4.525rem;
     font-family: 'latobold';
@@ -168,4 +168,23 @@ section h5 {
     margin-top: 160px;
     color: black;
     background: transparent;
+}
+/*register section*/
+.register{
+    width: 100%;
+    overflow: hidden;
+}
+.register .single_login{
+    background: #21424a;
+}
+.single_register{
+    background: #2fac6c;
+}
+.single_register a{
+    color: #fff;
+    font-size: 1.375rem;
+    font-family: 'lotobold';
+    text-transform: uppercase;
+    padding: 25px 0px;
+    display: inline-block;
 }
