@@ -146,7 +146,7 @@ section h5 {
 }
 /*home section*/
 .home {
-    background: url(../images/header-bg.jpg) no-repeat 100% 100%;
+    background: url(../images/header-bg.jpg) no-repeat;
     text-align: center;
 }
 .single_slider p {
@@ -170,21 +170,96 @@ section h5 {
     background: transparent;
 }
 /*register section*/
-.register{
+.register {
     width: 100%;
     overflow: hidden;
 }
-.register .single_login{
+.register .single_login {
     background: #21424a;
 }
-.single_register{
+.single_register {
     background: #2fac6c;
 }
-.single_register a{
+.single_register a {
     color: #fff;
     font-size: 1.375rem;
     font-family: 'lotobold';
     text-transform: uppercase;
     padding: 25px 0px;
     display: inline-block;
+}
+/*domain section*/
+.domain {
+    padding: 80px 0px;
+}
+.head_title {
+    margin-bottom: 40px;
+}
+.head_title h2 {
+    font-size: 1.5rem;
+    color: #383737;
+    font-family: 'latoheavy';
+}
+.head_title p {
+    font-size:1rem ;
+    color:#a2a2a2;
+    font-family: 'latolight';
+}
+.input-group-addon {
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    color: #555;
+    text-align: center;
+    background-color: transparent; 
+    border: 1px solid #ccc;
+    border-radius: 1px;
+}
+.input-group-lg>.form-control, .input-group-lg>.input-group-addon, .input-group-lg>.input-group-btn>.btn {
+    height: 46px;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 2px;
+}
+.sercelist{
+    border: 1px solid #ddd;
+    padding: 20px;
+    display: inline-block;
+    width: 100%;
+    margin-top: 40px;
+}
+.sercelist .list-inline>li {
+    display: inline-block;
+    padding-right: 0px;
+    padding-left: 0px;
+    width: 24%;
+    text-align: center;
+    border-right: 1px solid #ddd;
+    height: 100px;
+    line-height: 100px;
+    padding: 2.5em 0em;
+    border-bottom: 1px solid #ddd;
+}
+.sercelist .list-inline>li:last-child {
+    border-right: 0px solid #ddd;
+}
+.sercelist .list-inline.no-border>li {
+    border-bottom: 0px solid #ddd;
+}
+.sercelist .single_dotcom_serce ul.list-inline li{
+    position: relative;
+}
+.sercelist .single_dotcom_serce ul.list-inline.no-border li:after {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    left: -7%;
+    top: -15%;
+    border-radius: 50%;
+}
+.sercelist .single_dotcom_serce ul.list-inline.no-border {
+    display: none;
 }
