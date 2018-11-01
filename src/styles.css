@@ -9,9 +9,6 @@ body {
 	font-weight: 300;
 	font-family: 'roboto', sans-serif;
 }
-figure, footer, header, main, nav, section, { 
-    display:block;
-}
 ol, ul {
 	padding: 0;
 	margin: 0;
@@ -107,34 +104,4 @@ section h5 {
 .footer {
     background: #2a2a2a;
     padding: 80px 0;
-}
-.main_menu_bg{
-    margin-top:0px;
-}
-.main_menu_bg .navbar-default {
-    background-color: transparent; 
-    border-color: transparent; 
-}
-.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
-    color:#e84c3d;
-}
-.main_menu_bg .navbar {
-    margin-bottom: 0px;
-    border-bottom: 1px solid #686868;
-    min-height: 90px;
-}
-.main_menu_bg .container-fluid {
-    margin-top: 20px;
-}
-.main_menu_bg .navbar-nav>li>a {
-    padding-top: 15px;
-    padding-bottom: 33px;
-    text-transform:uppercase;
-}
-.main_menu_bg .navbar-default .navbar-nav>.active>a{
-    color: #e84c3d;
-    background-color: transparent;
-    border-bottom: 1px solid #FFF;
-    margin-bottom: -1px;
-    padding-bottom: 33px;
 }
