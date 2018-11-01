@@ -105,3 +105,42 @@ section h5 {
     background: #2a2a2a;
     padding: 80px 0;
 }
+/*nav section*/
+.menu-scroll {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    position: fixed;
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    z-index: 300;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    background-color: #3d3325;
+}
+.main_menu_bg {
+    margin-top: 0px;
+}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+    color:#e84c3d;
+}
+.main_menu_bg .navbar {
+    margin-bottom: 0px;
+    border-bottom: 1px solid #686868;
+    min-height: 90px;
+}
+.main_menu_bg .container-fluid {
+    margin-top: 20px;
+}
+.main_menu_bg .navbar-nav>li>a {
+    padding-top: 15px;
+    padding-bottom: 33px;
+    text-transform:uppercase;
+}
+.main_menu_bg .navbar-default .navbar-nav>.active>a {
+    color: #e84c3d;
+    background-color: transparent;
+    border-bottom: 1px solid #FFF;
+    margin-bottom: -1px;
+    padding-bottom: 33px;
+}
