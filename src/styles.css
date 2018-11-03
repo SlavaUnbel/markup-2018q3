@@ -155,7 +155,7 @@ ul.navbar-nav>li>a:hover, ul.navbar-nav>li>a:focus {
     text-align: center;
 }
 .home-overlay-fluid {
-    background-color: rgba(0, 0, 0, 0.0);
+    background-color: rgba(0, 0, 0, 0.8);
     width: 100%;
     padding: 250px 0px;
 }
@@ -171,12 +171,13 @@ ul.navbar-nav>li>a:hover, ul.navbar-nav>li>a:focus {
     color: #fff;
     font-size: 6rem;
     font-family: 'latobold';
-    margin-bottom: 50px;
+    margin-bottom: 50px; 
 }
 .main_slider_area {
     text-align: center;
-    margin-top: 100px;
-    -webkit-tap-highlight-color: transparent;
+    margin-top: 160px;
+    color: black;
+    background: transparent;
 }
 /*register section*/
 .register {
@@ -186,10 +187,14 @@ ul.navbar-nav>li>a:hover, ul.navbar-nav>li>a:focus {
 }
 .register .single_login{
     background: #21424a;
+    margin-left: -20px;
+    width: 105%;
 }
 .single_register{
     background: #2fac6c;
+    margin-left: -20px;
     transform: skewX(-20deg);
+    width: 110%;
 }
 .single_register a {
     color: #fff;
@@ -229,7 +234,7 @@ ul.navbar-nav>li>a:hover, ul.navbar-nav>li>a:focus {
     line-height: 1;
     color: #555;
     text-align: center;
-    background-color: transparent; 
+    background-color: transparent;
     border: 1px solid #ccc;
     border-radius: 1px;
 }
@@ -257,15 +262,13 @@ select {
 }
  .list-inline>li {
     display: inline-block;
-    font-style: 'latolight'; 
-    padding-right: 0px;
-    padding-left: 0px;
+    font-family: 'latolight'; 
+    font-size: 1.5rem; 
     width: 24%;
     text-align: center;
     border-right: 1px solid #ddd;
     height: 100px;
     line-height: 100px;
-    padding: 2.5em 0em;
     border-bottom: 1px solid #ddd;
 }
 .sercelist .list-inline>li:last-child {
@@ -276,4 +279,17 @@ select {
 }
 .sercelist .single_dotcom_serce ul.list-inline li{
     position: relative;
+}
+.sercelist .single_dotcom_serce ul.list-inline.no-border-bottom li:after {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    left: -9%;
+    top: -25%;
+    border-radius: 50%;
+}
+.sercelist .single_dotcom_serce ul.list-inline.no-border-bottom li:nth-child(1):after {
+    display:none;
 }
