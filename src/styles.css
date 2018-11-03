@@ -326,7 +326,7 @@ select {
     border-top:5px solid #ff0000;   
 }
 .single_pricing.pricing_color_one{
-    border-top:5px solid #ffcc33;
+    border-top: 5px solid #ffcc33;
 }
 .single_pricing{
     border:1px solid #ddd;
@@ -352,19 +352,21 @@ select {
     padding: 0px 20px;
     margin-top: -10px;
 }
-.single_pricing .single_pricing_figure ul li span.princing_name{
+.single_pricing .single_pricing_figure ul li span.pricing_name{
     text-align: left;
     display: inline-block;
-    width:80%;
+    width: 80%;
     color: #a2a2a2;
-    font-family:'latomedium';
+    font-family:'latolight';
 }
-.single_pricing .single_pricing_figure ul li span.princing_price{
+.single_pricing .single_pricing_figure ul li span.pricing_price{
     text-align: right;
     display: inline-block;
-    width:15%;
+    width: 15%;
     font-family:'latobold';
-    color:#f9d423;
+}
+.single_pricing .single_pricing_figure ul li span.pricing_price_one{
+    color: #f9d423;
 }
 .single_pricing ul{
     margin-top:25px;
@@ -398,13 +400,43 @@ select {
     font-family: 'latoregular';
     color: #a2a2a2;
 }
-.single_pricing footer.pricing_footer a{
+.single_pricing footer.pricing_footer a {
     font-size:14px;
     color:#282828;
     margin-top:20px;
     font-family: 'latoheavy';
 }
-.single_pricing footer.pricing_footer .separetor_one{
+.single_pricing footer.pricing_footer .separator_one {
     border: 1px solid #f9d423;
+    margin-bottom: 10px;
+}
+.single_pricing.pricing_color_two {
+    border-top: 5px solid #7f8c8d;
+}
+.single_pricing .single_pricing_figure ul li span.pricing_price_two {
+    color: #7f8c8d;
+}
+.single_pricing footer.pricing_footer .separator_two {
+    border: 1px solid #7f8c8d;
+    margin-bottom: 10px;
+}
+.single_pricing.pricing_color_three {
+    border-top: 5px solid #f85f40;
+}
+.single_pricing .single_pricing_figure ul li span.pricing_price_three {
+    color: #f85f40;
+}
+.single_pricing footer.pricing_footer .separator_three {
+    border: 1px solid #f85f40;
+    margin-bottom: 10px;
+}
+.single_pricing.pricing_color_four {
+    border-top: 5px solid #1abc9c;
+}
+.single_pricing .single_pricing_figure ul li span.pricing_price_four {
+    color: #1abc9c;
+}
+.single_pricing footer.pricing_footer .separator_four {
+    border: 1px solid #1abc9c;
     margin-bottom: 10px;
 }
