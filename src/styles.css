@@ -142,7 +142,8 @@ section h5 {
     max-width: 70%;
     font-size: 3.5rem;
     margin: 10px auto;
-    font-family: 'latoheavy_italic';
+    font-family: Georgia, serif;
+    font-style: italic;
     line-height: 45px;
     color: #fff;
 }
